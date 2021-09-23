@@ -1,0 +1,19 @@
+.card-body {
+  color: black;
+}
+
+.card {
+  width: 70%;
+  margin: 10px;
+}
+
+.btn-del {
+  margin: 10px;
+  font-size: 20px;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.dash {
+  text-decoration: line-through;
+}
