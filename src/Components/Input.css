@@ -1,39 +1,37 @@
-.css-input {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding: 6px;
-  font-size: 23px;
-  border-width: 1px;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  color: #000000;
-  border-style: solid;
-  border-radius: 5px;
-}
-.css-input:focus {
-  outline: none;
-}
-
-.btn-arrow {
-  padding: 9px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-}
-
-.bi-arrow {
-  font-size: 22px;
-}
 @media (max-width: 500px) {
-  .css-input {
-    padding: 4px;
-    font-size: 16px;
-  }
-  .bi-arrow {
-    font-size: 16px;
-  }
-  .btn-arrow {
-    margin-bottom: 0px;
-    padding: 6px;
-  }
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  margin-bottom: 25px;
+}
+.grocery {
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+  background: var(--txtbox);
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-color: transparent;
+  font-size: 1rem;
+  flex: 1 0 auto;
+  color: #617d98;
+}
+
+.submit-btn {
+  background: var(--btn);
+  border-color: transparent;
+  flex: 0 0 5rem;
+  display: grid;
+  align-items: center;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  cursor: pointer;
+  content: #49a6e9;
+  transition: all 0.3s linear;
+  font-size: 0.85rem;
 }

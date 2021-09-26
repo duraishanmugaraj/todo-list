@@ -1,17 +1,15 @@
 #dark-mode {
-  --gradient: linear-gradient(315deg, #000000 0%, #5e5368 74%);
-  --primary: #fff;
-  --second: #000;
-  --font: rgb(255, 255, 255);
-  --box: rgba(255, 255, 255, 0.5);
+  --gradient: linear-gradient(150deg, #232931 0%, #232931 74%);
+  --toggle: #d7d8da;
+  --txtbox: #ebeced;
+  --btn: #d7d8da;
 }
 
 #lite-mode {
-  --gradient: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
-  --primary: rgb(0, 0, 0);
-  --second: #fff;
-  --font: rgb(0, 0, 0);
-  --box: rgba(0, 0, 0, 0.4);
+  --gradient: linear-gradient(150deg, #f0f8ff6e, #e6faf7);
+  --toggle: #282c35;
+  --txtbox: #f1f5f8;
+  --btn: #a5d5f8;
 }
 
 h1 {

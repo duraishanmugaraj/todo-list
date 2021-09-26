@@ -1,0 +1,29 @@
+.footer {
+  margin-top: 50px;
+}
+
+.icons {
+  display: inline;
+  margin: 0 25px 0 0;
+}
+
+.icon {
+  text-align: center;
+}
+p.copyright {
+  color: var(--toggle);
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+hr {
+  color: var(--toggle);
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 25%;
+  text-align: center;
+  margin: 2em auto; /* 15% or whatever fixed or % value that suits your needs*/
+}

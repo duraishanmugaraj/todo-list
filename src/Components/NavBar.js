@@ -7,7 +7,7 @@ function NavBar(props) {
 		<div>
 			<nav className="navbar navbar-expand-lg">
 				<div className="container-fluid">
-					<h1 className="nav-txt">Todo List</h1>
+
 					<div className="d-flex ms-auto">
 						<Toggle />
 					</div>

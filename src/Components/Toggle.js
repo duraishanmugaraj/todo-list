@@ -13,19 +13,11 @@ function Toggle() {
 
 	const liteIcon = "bi bi-brightness-high-fill"
 	const darkIcon = "bi bi-moon-stars"
-
-	const lightBtn = "btn btn-outline-light btn-lg"
-	const darkBtn = "btn btn-outline-dark btn-lg"
-
 	return (
 		<div className="align">
 			<div className="toggle">
-				<button type="button"
-					class={checked ? darkBtn : lightBtn}
-					onClick={() => setChecked(!checked)}>
-					<i className={checked ? darkIcon : liteIcon} ></i>
-					{checked ? "Dark" : "Light"}
-				</button>
+				<i onClick={() => setChecked(!checked)}
+					className={checked ? darkIcon : liteIcon} ></i>
 			</div>
 		</div>
 

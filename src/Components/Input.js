@@ -13,16 +13,14 @@ function Input(props) {
 		}
 	}
 	return (
-		<div>
-			<form onSubmit={handleSubmit}>
-				<input type="text" value={name}
-					onChange={e => setName(e.target.value)}
-					className="css-input" />
-				<button type="submit" class="btn btn-primary btn-sm btn-arrow">
-					<i class="bi-arrow-return-left bi-arrow"></i>
-				</button>
-			</form>
-		</div>
+		<form className="form-control" onSubmit={handleSubmit}>
+			<input onChange={e => setName(e.target.value)}
+				type="text"
+				className="grocery"
+				placeholder="eg. learn react"
+				value={name} />
+			<button type="submit" className="submit-btn">submit</button>
+		</form>
 	);
 }
 
