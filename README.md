@@ -21,7 +21,7 @@
 [✔️React](https://reactjs.org/) <br>
 [✔️firebase](https://firebase.google.com/) <br>
 [✔️react-social-icons](https://www.npmjs.com/package/react-social-icons) <br>
-[✔️react-social-icons](https://www.npmjs.com/package/react-social-icons) <br>
+
 
 
 
